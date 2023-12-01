@@ -1,0 +1,116 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+    
+a {
+    text-decoration: none;
+}
+
+body {background-color: white;}
+
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.acerca-imagen img{
+padding: 3em;
+}
+
+.seccion-2 img {
+
+    width: 100%;
+}
+
+header {
+    display:flex;
+    background-color: darkolivegreen;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color:aliceblue;
+    font-size: 2em;
+    padding: 0.4em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    color:aliceblue;
+    gap: 2em;
+}
+
+footer {
+    background-color: gainsboro;
+    width: 100%;
+}
+
+a i.fa-brands.fa-whatsapp{
+position: fixed;
+bottom: 22px;
+right: 39px;
+}
+
+footer a i {
+    font-size: 100px;
+    color: black;
+}
+
+.container2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:33%;
+}
+
+.imagen{
+    flex:1;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    
+    body {
+    font-size: 16px;
+    }
+    .container {
+   
+    width: 90%;
+    margin: 0 auto;
+}
+}
+
+/* Estilos para pantallas más grandes (a partir de 769px) */
+@media (min-width: 769px) {
+   
+    body {
+    font-size: 18px;
+    }
+    .container {
+   
+    width: 80%;
+    margin: 0 auto;
+}
+}
